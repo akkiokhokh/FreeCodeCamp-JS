@@ -6,3 +6,11 @@ let a ;
 a = 10;
 let b = a;
 
+
+to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
+One such operator is the += operator.
+myVar = myVar + 5;
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
